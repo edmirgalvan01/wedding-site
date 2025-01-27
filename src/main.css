@@ -1,0 +1,25 @@
+:root {
+  --black-color: #212121;
+  --grey-color: #bbb;
+  --pink-color: #efb6c8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #eee;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contentPage {
+  width: 100vw;
+  min-height: 100vh;
+}
