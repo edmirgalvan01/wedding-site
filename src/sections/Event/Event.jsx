@@ -14,9 +14,9 @@ export const Event = () => {
           con nosotros
         </p>
         <div className="event--content__date">
-          <p>15 MAR</p>
+          <p className="afacad">15 MAR</p>
           <div className="divider"></div>
-          <p>16:30</p>
+          <p className="afacad">16:30</p>
         </div>
         <span className="lato">
           2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}

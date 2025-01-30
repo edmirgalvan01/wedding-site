@@ -5,7 +5,7 @@ export const SectionTitle = ({ title, children }) => {
   return (
     <div className="sectionTitle">
       {children}
-      <h1>{title}</h1>
+      <h1 className="lato">{title}</h1>
     </div>
   );
 };

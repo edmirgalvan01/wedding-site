@@ -14,9 +14,9 @@ export const Identify = () => {
           presencia
         </p>
         <ul>
-          <li>David Lopez</li>
-          <li>Reina Perdomo</li>
-          <li>Karen Lopez</li>
+          <li className="playwrite">David Lopez</li>
+          <li className="playwrite">Reina Perdomo</li>
+          <li className="playwrite">Karen Lopez</li>
         </ul>
         <span className="lato">
           Favor de confirmar dos semanas antes del evento (1 de marzo)

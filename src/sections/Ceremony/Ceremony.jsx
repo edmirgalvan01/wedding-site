@@ -13,9 +13,9 @@ export const Ceremony = () => {
           Dios tiene un gran peso en nuestras vidas. Por eso mismo, te esperamos
         </p>
         <div className="ceremony--content__date">
-          <p>15 MAR</p>
+          <p className="afacad">15 MAR</p>
           <div className="divider"></div>
-          <p>14:00</p>
+          <p className="afacad">14:00</p>
         </div>
         <span className="lato">
           2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
