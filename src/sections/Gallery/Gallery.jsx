@@ -9,7 +9,7 @@ export const Gallery = () => {
         <CiCamera size={50} />
       </SectionTitle>
       <div className="gallery--content">
-        <p>
+        <p className="lato">
           Todo lo que hemos logrado no lo hubieramos podido hacer sin ti.
           Gracias por aportar sabiduria a nuestras vidas
         </p>

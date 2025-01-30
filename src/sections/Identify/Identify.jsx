@@ -9,7 +9,7 @@ export const Identify = () => {
         <CiBookmarkCheck size={50} />
       </SectionTitle>
       <div className="identify--content">
-        <p>
+        <p className="lato">
           Son muy importantes en nuestras vidas. Esperamos contar con su
           presencia
         </p>
@@ -18,12 +18,12 @@ export const Identify = () => {
           <li>Reina Perdomo</li>
           <li>Karen Lopez</li>
         </ul>
-        <span>
+        <span className="lato">
           Favor de confirmar dos semanas antes del evento (1 de marzo)
         </span>
         <div className="identify--content__buttons">
-          <button>Numero de Janice</button>
-          <button>Numero de Edmir</button>
+          <button className="lato">Numero de Janice</button>
+          <button className="lato">Numero de Edmir</button>
         </div>
       </div>
     </section>

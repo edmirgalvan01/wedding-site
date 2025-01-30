@@ -8,19 +8,19 @@ const Timer = ({ days, hours, minutes, seconds }) => {
     <div className="invitation--timer__content">
       <div className="timer--item">
         <div className="timer--item__number">{days}</div>
-        <span>Dias</span>
+        <span className="lato">Dias</span>
       </div>
       <div className="timer--item">
         <div className="timer--item__number">{hours}</div>
-        <span>Horas</span>
+        <span className="lato">Horas</span>
       </div>
       <div className="timer--item">
         <div className="timer--item__number">{minutes}</div>
-        <span>Minutos</span>
+        <span className="lato">Minutos</span>
       </div>
       <div className="timer--item">
         <div className="timer--item__number">{seconds}</div>
-        <span>Segundos</span>
+        <span className="lato">Segundos</span>
       </div>
     </div>
   );
@@ -33,7 +33,7 @@ export const Invitation = () => {
     <section className=" Invitation">
       <div className="invitation--title">
         <h1>¡Estas invitado!</h1>
-        <p>
+        <p className="lato">
           Queremos que seas parte de este momento tan especial en nuestras vidas
         </p>
       </div>

@@ -6,7 +6,7 @@ export const Home = () => {
       <h2>¡Nos casamos!</h2>
       <h1>Edmir y Janice</h1>
       <div className="versicle">
-        <p>
+        <p className="">
           <em>
             Además, uno que anda solo puede ser vencido, pero dos juntos pueden
             hacerle frente al agresor. Y una cuerda triple no se rompe

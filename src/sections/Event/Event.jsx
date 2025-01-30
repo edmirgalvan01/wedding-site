@@ -9,7 +9,7 @@ export const Event = () => {
         <BiParty size={50} />
       </SectionTitle>
       <div className="event--content">
-        <p>
+        <p className="lato">
           No podemos dejar pasar la oportunidad. Celebra este importante suceso
           con nosotros
         </p>
@@ -18,7 +18,9 @@ export const Event = () => {
           <div className="divider"></div>
           <p>16:30</p>
         </div>
-        <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+        <span className="lato">
+          2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
+        </span>
         <button>Ver ubicacion</button>
       </div>
     </section>

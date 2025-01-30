@@ -9,12 +9,12 @@ export const Gifts = () => {
         <CiGift size={50} />
       </SectionTitle>
       <div className="gifts--content">
-        <p>
+        <p className="lato">
           El mejor regalo es compartir con nosotros este día tan especial, pero
           si desean ayudarnos, agradeceremos cualquier aporte en efectivo, que
           será de gran utilidad para comenzar nuestra nueva vida
         </p>
-        <span>
+        <span className="lato">
           En la entrada del salon de eventos habra una cajita en donde podran
           poner sus aportaciones
         </span>

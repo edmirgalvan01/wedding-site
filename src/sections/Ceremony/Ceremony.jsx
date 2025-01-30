@@ -9,7 +9,7 @@ export const Ceremony = () => {
         <CiBookmark size={50} />
       </SectionTitle>
       <div className="ceremony--content">
-        <p>
+        <p className="lato">
           Dios tiene un gran peso en nuestras vidas. Por eso mismo, te esperamos
         </p>
         <div className="ceremony--content__date">
@@ -17,7 +17,9 @@ export const Ceremony = () => {
           <div className="divider"></div>
           <p>14:00</p>
         </div>
-        <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+        <span className="lato">
+          2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
+        </span>
         <button>Ver ubicacion</button>
       </div>
     </section>
