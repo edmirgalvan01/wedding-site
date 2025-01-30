@@ -1,0 +1,20 @@
+.Gifts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.gifts--content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.gifts--content p {
+  color: var(--black-color);
+  font-size: 18px;
+}
+.gifts--content span {
+  color: var(--grey-color);
+}
