@@ -1,13 +1,13 @@
 import "./Gallery.css";
 import { CiCamera } from "react-icons/ci";
+import { SectionTitle } from "../../components/SectionTitle";
 
 export const Gallery = () => {
   return (
     <section className="contentPage Gallery">
-      <div className="gallery--title">
+      <SectionTitle title="GALERIA">
         <CiCamera size={50} />
-        <p>GALERIA</p>
-      </div>
+      </SectionTitle>
       <div className="gallery--content">
         <p>
           Todo lo que hemos logrado no lo hubieramos podido hacer sin ti.

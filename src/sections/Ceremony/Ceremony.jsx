@@ -1,13 +1,13 @@
 import { CiBookmark } from "react-icons/ci";
+import { SectionTitle } from "../../components/SectionTitle";
 import "./Ceremony.css";
 
 export const Ceremony = () => {
   return (
     <section className="Ceremony">
-      <div className="ceremony--title">
+      <SectionTitle title="CEREMONIA">
         <CiBookmark size={50} />
-        <p>CEREMONIA</p>
-      </div>
+      </SectionTitle>
       <div className="ceremony--content">
         <p>
           Dios tiene un gran peso en nuestras vidas. Por eso mismo, te esperamos

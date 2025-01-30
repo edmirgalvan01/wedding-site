@@ -1,13 +1,13 @@
-import { CiGift } from "react-icons/ci";
 import "./Gifts.css";
+import { CiGift } from "react-icons/ci";
+import { SectionTitle } from "../../components/SectionTitle";
 
 export const Gifts = () => {
   return (
     <section className="Gifts">
-      <div className="event--title">
+      <SectionTitle title="GALERIA">
         <CiGift size={50} />
-        <p>REGALOS</p>
-      </div>
+      </SectionTitle>
       <div className="gifts--content">
         <p>
           El mejor regalo es compartir con nosotros este día tan especial, pero

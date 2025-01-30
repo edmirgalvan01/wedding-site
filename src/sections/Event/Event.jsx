@@ -1,13 +1,13 @@
 import { BiParty } from "react-icons/bi";
+import { SectionTitle } from "../../components/SectionTitle";
 import "./Event.css";
 
 export const Event = () => {
   return (
     <section className="Event">
-      <div className="event--title">
+      <SectionTitle title="CELEBRACION">
         <BiParty size={50} />
-        <p>CELEBRACION</p>
-      </div>
+      </SectionTitle>
       <div className="event--content">
         <p>
           No podemos dejar pasar la oportunidad. Celebra este importante suceso

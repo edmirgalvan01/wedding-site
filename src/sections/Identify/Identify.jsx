@@ -1,13 +1,13 @@
 import { CiBookmarkCheck } from "react-icons/ci";
+import { SectionTitle } from "../../components/SectionTitle";
 import "./Identify.css";
 
 export const Identify = () => {
   return (
     <section className="Identify">
-      <div className="event--title">
+      <SectionTitle title="PASE DE ENTRADA">
         <CiBookmarkCheck size={50} />
-        <p>PASE DE ENTRADA</p>
-      </div>
+      </SectionTitle>
       <div className="identify--content">
         <p>
           Son muy importantes en nuestras vidas. Esperamos contar con su

@@ -5,18 +5,6 @@
   gap: 30px;
   padding: 20px;
 }
-.ceremony--title {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  gap: 15px;
-}
-.ceremony--title p {
-  color: var(--black-color);
-  font-size: 24px;
-  font-weight: bold;
-}
 .ceremony--content {
   display: flex;
   flex-direction: column;

@@ -1,13 +1,13 @@
-import "./History.css";
+import { SectionTitle } from "../../components/SectionTitle";
 import { CiTimer } from "react-icons/ci";
+import "./History.css";
 
 export const History = () => {
   return (
     <section className="History">
-      <div className="history--title">
+      <SectionTitle title="HISTORIA">
         <CiTimer size={50} />
-        <p>HISTORIA</p>
-      </div>
+      </SectionTitle>
       <div className="history--picture">
         <span>Nos hicimos novios</span>
         <h3>30 DE JULIO DEL 2023</h3>
