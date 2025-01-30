@@ -1,7 +1,8 @@
 :root {
   --black-color: #212121;
   --grey-color: #bbb;
-  --pink-color: #efb6c8;
+  --pink-color: #ffe5e4;
+  --green-color: #8d8e7c;
 }
 * {
   padding: 0;
@@ -9,7 +10,7 @@
   box-sizing: border-box;
 }
 main {
-  background-color: #eee;
+  background-color: var(--pink-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

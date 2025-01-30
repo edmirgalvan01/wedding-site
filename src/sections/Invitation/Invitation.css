@@ -28,9 +28,7 @@
 }
 .invitation--date h1 {
   font-size: 36px;
-  background: linear-gradient(to right, #efb6c8, #fabc3f);
-  background-clip: text;
-  color: transparent;
+  color: #e5a82e;
 }
 
 .invitation--timer {
@@ -48,9 +46,10 @@
   gap: 5px;
 }
 .timer--item__number {
-  background-color: var(--pink-color);
+  background-color: var(--green-color);
   padding: 20px;
   border-radius: 100%;
   font-size: 20px;
   font-weight: 600;
+  color: var(--pink-color);
 }
