@@ -5,7 +5,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 export const Gifts = () => {
   return (
     <section className="Gifts">
-      <SectionTitle title="GALERIA">
+      <SectionTitle title="REGALOS">
         <CiGift size={50} />
       </SectionTitle>
       <div className="gifts--content">
