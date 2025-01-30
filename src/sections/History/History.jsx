@@ -1,8 +1,12 @@
+import "./History.css";
+import { CiTimer } from "react-icons/ci";
+
 export const History = () => {
   return (
-    <section className="contentPage History">
+    <section className="History">
       <div className="history--title">
-        <h2>HISTORIA</h2>
+        <CiTimer size={50} />
+        <p>HISTORIA</p>
       </div>
       <div className="history--picture">
         <span>Nos hicimos novios</span>

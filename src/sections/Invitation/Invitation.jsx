@@ -30,7 +30,7 @@ export const Invitation = () => {
   const weddingDate = new Date(2025, 2, 15, 17, 0);
 
   return (
-    <section className="contentPage Invitation">
+    <section className=" Invitation">
       <div className="invitation--title">
         <h1>¡Estas invitado!</h1>
         <p>
