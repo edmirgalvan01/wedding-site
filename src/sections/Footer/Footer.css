@@ -1,0 +1,21 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 15px;
+}
+.Footer h2 {
+  color: var(--black-color);
+}
+.Footer h1 {
+  font-size: 36px;
+  background: linear-gradient(to right, #efb6c8, #fabc3f);
+  background-clip: text;
+  color: transparent;
+}
+.Footer span {
+  margin-top: 40px;
+  color: #ccc;
+}
