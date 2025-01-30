@@ -22,8 +22,12 @@ export const Identify = () => {
           Favor de confirmar dos semanas antes del evento (1 de marzo)
         </span>
         <div className="identify--content__buttons">
-          <button className="lato">Numero de Janice</button>
-          <button className="lato">Numero de Edmir</button>
+          <a className="lato" href="https://wa.link/x0nmss" target="blank">
+            Numero de Janice
+          </a>
+          <a className="lato" href="https://wa.link/sncx34" target="blank">
+            Numero de Edmir
+          </a>
         </div>
       </div>
     </section>

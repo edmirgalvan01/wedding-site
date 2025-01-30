@@ -34,11 +34,13 @@
   display: flex;
   justify-content: space-between;
 }
-.identify--content__buttons button {
+.identify--content__buttons a {
   background-color: var(--pink-color);
   padding: 10px 25px;
   border: none;
   outline: none;
   border-radius: 6px;
   font-size: 14px;
+  text-decoration: none;
+  color: var(--black-color);
 }

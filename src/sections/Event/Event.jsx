@@ -1,4 +1,4 @@
-import { BiParty } from "react-icons/bi";
+import { CiBrightnessDown } from "react-icons/ci";
 import { SectionTitle } from "../../components/SectionTitle";
 import "./Event.css";
 
@@ -6,7 +6,7 @@ export const Event = () => {
   return (
     <section className="Event">
       <SectionTitle title="CELEBRACION">
-        <BiParty size={50} />
+        <CiBrightnessDown size={50} />
       </SectionTitle>
       <div className="event--content">
         <p className="lato">
@@ -21,7 +21,13 @@ export const Event = () => {
         <span className="lato">
           2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
         </span>
-        <button>Ver ubicacion</button>
+        <a
+          href="https://maps.app.goo.gl/VQGxaq4D3jmWoG3u9"
+          target="blank"
+          className="lato"
+        >
+          Ver ubicacion
+        </a>
       </div>
     </section>
   );

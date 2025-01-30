@@ -20,7 +20,13 @@ export const Ceremony = () => {
         <span className="lato">
           2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
         </span>
-        <button>Ver ubicacion</button>
+        <a
+          href="https://maps.app.goo.gl/qu5UsswmdrtZgEtb7"
+          target="blank"
+          className="lato"
+        >
+          Ver ubicacion
+        </a>
       </div>
     </section>
   );

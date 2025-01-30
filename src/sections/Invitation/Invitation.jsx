@@ -7,19 +7,19 @@ const Timer = ({ days, hours, minutes, seconds }) => {
   return (
     <div className="invitation--timer__content">
       <div className="timer--item">
-        <div className="timer--item__number">{days}</div>
+        <div className="timer--item__number lato">{days}</div>
         <span className="lato">Dias</span>
       </div>
       <div className="timer--item">
-        <div className="timer--item__number">{hours}</div>
+        <div className="timer--item__number lato">{hours}</div>
         <span className="lato">Horas</span>
       </div>
       <div className="timer--item">
-        <div className="timer--item__number">{minutes}</div>
+        <div className="timer--item__number lato">{minutes}</div>
         <span className="lato">Minutos</span>
       </div>
       <div className="timer--item">
-        <div className="timer--item__number">{seconds}</div>
+        <div className="timer--item__number lato">{seconds}</div>
         <span className="lato">Segundos</span>
       </div>
     </div>
