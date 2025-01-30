@@ -3,7 +3,7 @@ import "./Identify.css";
 
 export const Identify = () => {
   return (
-    <section className="contentPage Identify">
+    <section className="Identify">
       <div className="event--title">
         <CiBookmarkCheck size={50} />
         <p>PASE DE ENTRADA</p>

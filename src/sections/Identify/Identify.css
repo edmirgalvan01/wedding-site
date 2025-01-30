@@ -1,0 +1,43 @@
+.Identify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.identify--content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.identify--content p {
+  color: var(--black-color);
+  text-align: center;
+}
+.identify--content ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.identify--content li {
+  font-size: 32px;
+}
+.identify--content span {
+  font-size: 16px;
+  color: var(--grey-color);
+  text-align: center;
+}
+.identify--content__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.identify--content__buttons button {
+  background-color: var(--pink-color);
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
