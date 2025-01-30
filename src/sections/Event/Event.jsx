@@ -19,7 +19,7 @@ export const Event = () => {
           <p className="afacad">16:30</p>
         </div>
         <span className="lato">
-          2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
+          20, 534265, -97.320995, 93260 Papantla, Ver.
         </span>
         <a
           href="https://maps.app.goo.gl/VQGxaq4D3jmWoG3u9"

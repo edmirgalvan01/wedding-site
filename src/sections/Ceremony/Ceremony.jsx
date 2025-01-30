@@ -18,7 +18,7 @@ export const Ceremony = () => {
           <p className="afacad">14:00</p>
         </div>
         <span className="lato">
-          2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
+          Amatlán s/n, Petromex, 93290 Poza Rica de Hidalgo, Ver.
         </span>
         <a
           href="https://maps.app.goo.gl/qu5UsswmdrtZgEtb7"
