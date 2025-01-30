@@ -5,7 +5,7 @@ export const Ceremony = () => {
   return (
     <section className="contentPage Ceremony">
       <div className="ceremony--title">
-        <CiBookmark />
+        <CiBookmark size={50} />
         <p>CEREMONIA</p>
       </div>
       <div className="ceremony--content">

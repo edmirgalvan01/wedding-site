@@ -5,3 +5,45 @@
   gap: 30px;
   padding: 20px;
 }
+.ceremony--title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+.ceremony--title p {
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: bold;
+}
+.ceremony--content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+.ceremony--content p {
+  color: var(--black-color);
+}
+.ceremony--content__date {
+  display: flex;
+  gap: 40px;
+}
+.ceremony--content__date p {
+  font-size: 32px;
+  font-weight: 600;
+}
+.divider {
+  width: 1px;
+  background-color: var(--grey-color);
+}
+.ceremony--content button {
+  background-color: var(--pink-color);
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
