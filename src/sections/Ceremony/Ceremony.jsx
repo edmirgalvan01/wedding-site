@@ -3,7 +3,7 @@ import "./Ceremony.css";
 
 export const Ceremony = () => {
   return (
-    <section className="contentPage Ceremony">
+    <section className="Ceremony">
       <div className="ceremony--title">
         <CiBookmark size={50} />
         <p>CEREMONIA</p>
