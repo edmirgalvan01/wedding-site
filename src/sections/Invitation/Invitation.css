@@ -28,7 +28,7 @@
 }
 .invitation--date h1 {
   font-size: 36px;
-  color: #e5a82e;
+  color: var(--green-color);
 }
 
 .invitation--timer {
