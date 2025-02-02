@@ -1,8 +1,30 @@
+import { useEffect, useState } from "react";
 import { CiBookmarkCheck } from "react-icons/ci";
 import { SectionTitle } from "../../components/SectionTitle";
+import { supabase } from "../../database/supabase";
 import "./Identify.css";
 
 export const Identify = () => {
+  const [persons, setPersons] = useState([]);
+
+  useEffect(() => {
+    async function getPersons() {
+      const { data } = await supabase.from("persons").select("*");
+      setPersons(data);
+    }
+
+    getPersons();
+  }, []);
+
+  useEffect(() => {
+    const id = document.baseURI.split("/")[3];
+
+    if (id) {
+      const filteredPersons = persons.filter((person) => person.family === id);
+      console.log(filteredPersons);
+    }
+  }, [persons]);
+
   return (
     <section className="Identify">
       <SectionTitle title="PASE DE ENTRADA">
