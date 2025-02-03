@@ -6,6 +6,7 @@ import "./Identify.css";
 
 export const Identify = () => {
   const [persons, setPersons] = useState([]);
+  const [filteredPersons, setFilteredPersons] = useState([]);
 
   useEffect(() => {
     async function getPersons() {
@@ -21,7 +22,7 @@ export const Identify = () => {
 
     if (id) {
       const filteredPersons = persons.filter((person) => person.family === id);
-      console.log(filteredPersons);
+      setFilteredPersons(filteredPersons);
     }
   }, [persons]);
 
@@ -36,9 +37,17 @@ export const Identify = () => {
           presencia
         </p>
         <ul>
-          <li className="playwrite">David Lopez</li>
-          <li className="playwrite">Reina Perdomo</li>
-          <li className="playwrite">Karen Lopez</li>
+          {filteredPersons.length > 0 ? (
+            filteredPersons.map((person) => (
+              <li className="playwrite" key={person.id}>
+                {person.name}
+              </li>
+            ))
+          ) : (
+            <p className="lato error-message">
+              No se han podido encontrar los nombres. Intentelo de nuevo.
+            </p>
+          )}
         </ul>
         <span className="lato">
           Favor de confirmar dos semanas antes del evento (1 de marzo)
