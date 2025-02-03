@@ -10,11 +10,9 @@
   box-sizing: border-box;
 }
 main {
-  background-color: var(--pink-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 .contentPage {
   width: 100vw;

@@ -4,6 +4,7 @@
   align-items: center;
   gap: 30px;
   padding: 20px;
+  background-color: var(--pink-color);
 }
 .ceremony--content {
   display: flex;

@@ -1,5 +1,4 @@
 .HomePage {
-  background-image: url("https://plus.unsplash.com/premium_photo-1670588775988-ae6d15872e3c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,15 +11,6 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-.HomePage::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 .HomePage h1,
 h2,
@@ -40,4 +30,15 @@ p {
   font-size: 16px;
   text-align: center;
   line-height: 20px;
+}
+.HomePage video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
