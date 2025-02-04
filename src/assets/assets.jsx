@@ -1,4 +1,4 @@
-import image1 from "./image1.JPG";
+import image1 from "./image1.jpg";
 import image2 from "./image2.jpg";
 import image3 from "./image3.jpg";
 import image4 from "./image4.jpg";
@@ -10,7 +10,7 @@ import image9 from "./image9.jpg";
 import image10 from "./image10.jpg";
 import relationship from "./relationship.jpg";
 import compromise from "./compromise.jpg";
-import now from "./now.JPG";
+import now from "./now.jpg";
 import video from "./video.mp4";
 
 const assets = {
