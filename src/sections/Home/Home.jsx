@@ -1,3 +1,4 @@
+import assets from "../../assets/assets";
 import "./Home.css";
 
 export const Home = () => {
@@ -17,7 +18,7 @@ export const Home = () => {
           <strong>Eclesiastes 4:12</strong>
         </p>
       </div>
-      <video src="/src/assets/video.mp4" muted autoPlay={true} loop={true} />
+      <video src={assets.video} muted autoPlay={true} loop={true} />
     </section>
   );
 };
