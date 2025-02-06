@@ -1,8 +1,8 @@
 :root {
   --black-color: #212121;
   --grey-color: #bbb;
-  --pink-color: #ffe5e4;
-  --green-color: #8d8e7c;
+  --pink-color: #fce9f1;
+  --green-color: #5a6c57;
 }
 * {
   padding: 0;
@@ -20,10 +20,4 @@ main {
 }
 .lato {
   font-family: "Lato";
-}
-.playwrite {
-  font-family: "Playwrite US Modern", serif;
-}
-.afacad {
-  font-family: "Afacad", serif;
 }
