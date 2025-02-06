@@ -13,9 +13,9 @@ export const Ceremony = () => {
           Dios tiene un gran peso en nuestras vidas. Por eso mismo, te esperamos
         </p>
         <div className="ceremony--content__date">
-          <p className="afacad">15 MAR</p>
+          <p className="lato">15 MAR</p>
           <div className="divider"></div>
-          <p className="afacad">14:00</p>
+          <p className="lato">14:00</p>
         </div>
         <span className="lato">
           Amatlán s/n, Petromex, 93290 Poza Rica de Hidalgo, Ver.

@@ -4,8 +4,8 @@ import "./Home.css";
 export const Home = () => {
   return (
     <section className="contentPage HomePage">
-      <h2 className="playwrite">¡Nos casamos!</h2>
-      <h1 className="afacad">Edmir y Janice</h1>
+      <h2 className="lato">¡Nos casamos!</h2>
+      <h1 className="lato">Edmir y Janice</h1>
       <div className="versicle">
         <p className="lato">
           <em>

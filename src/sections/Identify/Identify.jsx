@@ -39,7 +39,7 @@ export const Identify = () => {
         <ul>
           {filteredPersons.length > 0 ? (
             filteredPersons.map((person) => (
-              <li className="playwrite" key={person.id}>
+              <li className="lato" key={person.id}>
                 {person.name}
               </li>
             ))

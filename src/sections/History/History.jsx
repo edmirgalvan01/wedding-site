@@ -10,7 +10,7 @@ export const History = () => {
         <CiTimer size={50} />
       </SectionTitle>
       <div className="history--picture">
-        <span className="playwrite">Nos hicimos novios</span>
+        <span className="lato">Nos hicimos novios</span>
         <h3 className="lato">30 DE JULIO DEL 2023</h3>
         <img
           src={assets.relationship}
@@ -18,7 +18,7 @@ export const History = () => {
         />
       </div>
       <div className="history--picture">
-        <span className="playwrite">Nos comprometimos</span>
+        <span className="lato">Nos comprometimos</span>
         <h3 className="lato">7 DE ENERO DEL 2024</h3>
         <img
           src={assets.compromise}
@@ -26,7 +26,7 @@ export const History = () => {
         />
       </div>
       <div className="history--picture">
-        <span className="playwrite">Nos casaremos</span>
+        <span className="lato">Nos casaremos</span>
         <h3 className="lato">15 DE MARZO DEL 2025</h3>
         <img src={assets.now} alt="Foto de Edmir y Janice en la actualidad" />
       </div>

@@ -14,9 +14,9 @@ export const Event = () => {
           con nosotros
         </p>
         <div className="event--content__date">
-          <p className="afacad">15 MAR</p>
+          <p className="lato">15 MAR</p>
           <div className="divider"></div>
-          <p className="afacad">16:30</p>
+          <p className="lato">16:30</p>
         </div>
         <span className="lato">
           20, 534265, -97.320995, 93260 Papantla, Ver.

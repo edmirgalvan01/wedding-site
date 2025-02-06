@@ -32,17 +32,17 @@ export const Invitation = () => {
   return (
     <section className=" Invitation">
       <div className="invitation--title">
-        <h1 className="playwrite">¡Estas invitado!</h1>
+        <h1 className="lato">¡Estas invitado!</h1>
         <p className="lato">
           Queremos que seas parte de este momento tan especial en nuestras vidas
         </p>
       </div>
       <div className="invitation--date">
-        <span className="playwrite">¡Anota la gran fecha!</span>
-        <h1 className="afacad">15 de marzo del 2025</h1>
+        <span className="lato">¡Anota la gran fecha!</span>
+        <h1 className="lato">15 de marzo del 2025</h1>
       </div>
       <div className="invitation--timer">
-        <span className="playwrite">Faltan solamente</span>
+        <span className="lato">Faltan solamente</span>
         <Countdown date={weddingDate} renderer={Timer} />
       </div>
     </section>
