@@ -29,12 +29,12 @@
   background-color: var(--grey-color);
 }
 .event--content a {
-  background-color: var(--pink-color);
+  background-color: var(--green-color);
   padding: 10px 25px;
   border: none;
   outline: none;
   border-radius: 6px;
   font-size: 14px;
   text-decoration: none;
-  color: var(--black-color);
+  color: var(--pink-color);
 }
