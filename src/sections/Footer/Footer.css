@@ -12,9 +12,8 @@
 }
 .Footer h1 {
   font-size: 42px;
-  background: linear-gradient(to right, #efb6c8, #fabc3f);
-  background-clip: text;
-  color: transparent;
+  color: var(--green-color);
+  font-weight: 800;
 }
 .Footer span {
   margin-top: 40px;

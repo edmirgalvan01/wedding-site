@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <section className="contentPage HomePage">
       <h2 className="lato">¡Nos casamos!</h2>
-      <h1 className="lato">Edmir y Janice</h1>
+      <h1 className="dancing">Edmir y Janice</h1>
       <div className="versicle">
         <p className="lato">
           <em>
