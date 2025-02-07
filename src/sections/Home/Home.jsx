@@ -18,7 +18,7 @@ export const Home = () => {
           <strong>Eclesiastes 4:12</strong>
         </p>
       </div>
-      <video src={assets.video} muted autoPlay={true} loop={true} />
+      <img src={assets.home} />
     </section>
   );
 };

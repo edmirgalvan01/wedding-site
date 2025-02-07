@@ -11,7 +11,7 @@ import image10 from "./image10.jpg";
 import relationship from "./relationship.jpg";
 import compromise from "./compromise.jpg";
 import now from "./now.jpg";
-import video from "./video.mp4";
+import home from "./home.jpg";
 
 const assets = {
   image1,
@@ -27,7 +27,7 @@ const assets = {
   relationship,
   compromise,
   now,
-  video,
+  home,
 };
 
 export default assets;
