@@ -33,8 +33,8 @@ export const Identify = () => {
       </SectionTitle>
       <div className="identify--content">
         <p className="lato">
-          Son muy importantes en nuestras vidas. Esperamos contar con su
-          presencia
+          Tu presencia es nuestro regalo mas preciado. Por eso, la invitacion es
+          personal e intransferible.
         </p>
         <ul>
           {filteredPersons.length > 0 ? (
@@ -51,6 +51,10 @@ export const Identify = () => {
         </ul>
         <span className="lato">
           Favor de confirmar dos semanas antes del evento (1 de marzo)
+        </span>
+        <span className="lato">
+          Nuestra boda será un reflejo de nuestro estilo de vida, celebrando sin
+          bebidas alcoholicas.{" "}
         </span>
         <div className="identify--content__buttons">
           <a className="lato" href="https://wa.link/x0nmss" target="blank">

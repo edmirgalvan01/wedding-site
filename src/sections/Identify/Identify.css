@@ -28,7 +28,7 @@
 }
 .identify--content span {
   font-size: 16px;
-  color: var(--grey-color);
+  color: #333;
   text-align: center;
 }
 .identify--content__buttons {

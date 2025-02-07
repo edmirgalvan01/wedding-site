@@ -14,12 +14,8 @@ export const Gallery = () => {
           Todo lo que hemos logrado no lo hubieramos podido hacer sin ti.
           Gracias por aportar sabiduria a nuestras vidas
         </p>
-        <img src={assets.image1} alt="Fotografia de Edmir y Janice" />
-        <img src={assets.image2} alt="Fotografia de Edmir y Janice" />
-        <img src={assets.image3} alt="Fotografia de Edmir y Janice" />
         <img src={assets.image4} alt="Fotografia de Edmir y Janice" />
         <img src={assets.image5} alt="Fotografia de Edmir y Janice" />
-        <img src={assets.image6} alt="Fotografia de Edmir y Janice" />
         <img src={assets.image7} alt="Fotografia de Edmir y Janice" />
         <img src={assets.image8} alt="Fotografia de Edmir y Janice" />
         <img src={assets.image9} alt="Fotografia de Edmir y Janice" />
